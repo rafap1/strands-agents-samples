@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
     # Run the agent in a loop for interactive conversation
     while True:
-        user_input = input("\nYou > ")
+        user_input = input("\nYou the cook> ")
         if user_input.lower() == "exit":
             print("Happy cooking! 🍽️")
             break
